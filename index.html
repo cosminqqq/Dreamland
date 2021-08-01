@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+  <title>Joe Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+
+<div class="icon">
+	<div class="hamburger open-hamburger"></div>
+</div>
+
+<section class="main-title">
+	<h1>Welcome to your<br><span><big>D</big>reamlan<big>d</big></span></h1>
+</section>
+
+<!-- Carousel for at least 700px width -->
+<div id="slider">
+	
+	<input class='btn-carousel btn-left' type='button' value='&#8249;' onclick="backward()">
+	<input class='btn-carousel btn-right' type='button' value='&#8250;' onclick="forward()">
+	
+	<ul class="slider-container">
+		<li class="slides"><a><img src='img/pic9-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic1-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic2-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic3-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic4-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic5-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic6-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic7-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic8-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic9-carousel.jpg'></a></li>
+		<li class="slides"><a><img src='img/pic1-carousel.jpg'></a></li>
+	</ul>
+</div>
+
+<!-- Grid to replace carousel for smaller screens -->
+<div class='size-grid'>
+	<div class="portofolio" id='por-pic1'><img src='img/pic1-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic2'><img src='img/pic2-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic3'><img src='img/pic3-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic4'><img src='img/pic4-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic5'><img src='img/pic5-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic6'><img src='img/pic6-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic7'><img src='img/pic7-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic8'><img src='img/pic8-carousel.jpg'></div>
+	<div class="portofolio" id='por-pic9'><img src='img/pic9-carousel.jpg'></div>
+</div>
+
+
+<!-- Flex-float-grid for IE -->
+<div class="grid-flex">
+	 <div class='row-flex-grid row-top'> 
+		<div class="column-flex">
+		  <div class="squares-top top-top"><img src='img/pic1-carousel.jpg'></div>
+		  <div class="squares-top top-middle"><img src='img/pic2-carousel.jpg'></div>
+		  <div class="squares-top top-bottom"><img src='img/pic3-carousel.jpg'></div> 
+		</div>
+	</div>
+	
+	<div class='row-flex-grid row-middle'>
+ 	<div class='column-flex'>
+			 <div class="squares-middle middle-top"><img src='img/pic4-carousel.jpg'></div>
+			 <div class="squares-middle middle-middle"><img src='img/pic5-carousel.jpg'></div>
+			 <div class="squares-middle middle-bottom"><img src='img/pic6-carousel.jpg'></div>
+		</div> 
+	</div> 
+
+	
+	<div class='row-flex-grid row-bottom'>
+		<div class="column-flex">
+		  <div class="squares-bottom bottom-top"><img src='img/pic7-carousel.jpg'></div>
+		  <div class="squares-bottom bottom-middle"><img src='img/pic8-carousel.jpg'></div>
+		  <div class="squares-bottom bottom-bottom"><img src='img/pic9-carousel.jpg'></div>
+		</div> 
+		</div>
+</div>
+<!-- The end of the flex-float-grid -->
+
+
+<!-- Top navigation bar -->
+<nav>
+
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="">Projects</a></li>
+		<li><a href="">About us</a></li>
+		<li><a href="">Colaborators</a></li>
+		<li><a href="">Contact</a></li>
+	</ul>
+	
+</nav>
+
+</header>  
+
+<section class='food'>
+		<aside class='food-left'><img class='food-img' src='img/foodKabob.jpg'></aside>
+		<aside class='food-details'>
+									<div class="food-content">
+									<h1>Amazing food</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									   In sit amet eleifend justo. Quisque non magna vel justo eleifend imperdiet
+									   Quisque non magna vel justo eleifend imperdiet.
+									   
+									   </p>
+									
+									</div>		
+						</aside>
+		<aside class='food-right'><img class='food-img' src='img/food.jpg'></aside>	
+</section>
+
+<section class='on-short'>
+	<aside class="on-short-main">
+		<div class='osm-contain'>
+			<h1 class='osm-h1'>I had an ideea</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet
+					eleifend justo. Quisque non magna vel justo eleifend imperdiet Lorem ipsum
+					dolor sit amet, consectetur adipiscing elit. In sit amet eleifend justo. Quisque non magna vel justo eleifend imperdiet.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet eleifend justo. Quisque non magna
+					vel justo eleifend imperdiet.
+				</p>
+		</div>
+	</aside> 
+	
+	<aside class="osm-images">
+		
+			<div class='specs specs-top'>
+				<div class='header-hover header-hover-top'><h1>You will be cooking in here<br>with your friends</h1>
+								<a href='#' class='btn btn-proto-images'>Check kitchen</a>
+						</div>
+				</div>
+			
+			<div class='specs specs-middle'>
+				<div class='header-hover header-hover-middle'><h1>It's the best time of<br>the year to start a trip</h1>
+											<a href='#' class='btn btn-proto-images'>Climb</a>
+										</div>
+				</div>
+			
+			<div class='specs specs-bottom header-hover-bottom' >
+				<div class='header-hover header-hover-bottom'><h1>What are you waiting for<br>go get it</h1>
+											<a href='#' class='btn btn-proto-images'>Let's Go</a>
+										</div>
+				</div>
+			
+	</aside>
+	
+</section>
+
+<section class='rooms'>
+	<aside class='rooms-content'>
+		<img src='img/forestRoomOne.jpg'>
+		<img src='img/forestRoomTwo.jpg'>
+		<img src='img/forestRoomThree.jpg'>
+		<img src='img/forestRoomFour.jpg'>
+	</aside>
+	
+	<div class='cover'>
+		<h1 class='header-rooms'>You will be staying here</h1>
+		<a class='btn btn-rooms'>Whole place <span>&#8594;</span></a>
+		
+	</div>
+</section>
+
+<footer>
+	<div class="contact-wrapper">
+			<div class="contact">
+				<p class="header-contact">Contact:</p>
+				<p class="footer-paragraph">Adress: 4095 Chestnut Street, Tampa, Florida</p>
+				<p class="footer-paragraph">Phone: 8	-965-6533</p>
+				<p class="footer-paragraph">E-mail: yourdreamvacation@gmail.com</p>
+		</div>
+	</div>
+	
+	<ul>
+		<li style="padding-left: 0;"><a href="">Home</a></li>
+		<li><a href="">Area</a></li>
+		<li><a href="">Inside</a></li>
+		<li><a href="">Activities</a></li>
+		<li><a href="">Booking</a></li>
+	</ul>
+	
+</footer>
+
+<script src="jQuery.js" type="text/javascript"></script>
+<script src="jquery-ui.js" type="text/javascript"></script>
+<script src="js.js" type="text/javascript"></script> 
+</body>
+</html>
